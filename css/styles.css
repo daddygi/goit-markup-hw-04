@@ -197,6 +197,8 @@ address {
 }
 
 .footer-heading {
+  display: flex;
+  margin-bottom: 20px;
   color: var(--primary-white-color);
   font-weight: 700;
   line-height: 1.33;
@@ -205,7 +207,6 @@ address {
 
 .social-footer {
   display: flex;
-  margin-top: 20px;
 }
 
 .social-footer .icon-item + .icon-item {
@@ -300,7 +301,6 @@ address {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  max-width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -341,7 +341,6 @@ address {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 270px;
   height: 120px;
   margin-bottom: 30px;
   background-color: var(--background-grey);
@@ -401,6 +400,10 @@ address {
   border-radius: 0px 0px 4px 4px;
 }
 
+.team .image {
+  margin-bottom: 30px;
+}
+
 .team .name,
 .team .position {
   font-size: 16px;
@@ -409,7 +412,6 @@ address {
 }
 
 .team .name {
-  margin-top: 30px;
   margin-bottom: 10px;
   color: var(--primary-black-color);
   font-weight: 500;
