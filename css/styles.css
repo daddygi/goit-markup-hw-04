@@ -160,7 +160,7 @@ address {
   display: flex;
   flex-wrap: wrap;
   margin-top: -12px;
-  margin-left: -70px;
+  margin-left: -86px;
   align-items: baseline;
 }
 
@@ -188,7 +188,7 @@ address {
 .footer-address,
 .footer-block {
   margin-top: 12px;
-  margin-left: 70px;
+  margin-left: 86px;
 }
 
 .footer-heading {
