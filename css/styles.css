@@ -94,10 +94,6 @@ address {
   color: var(--primary-white-color);
 }
 
-.logo.footer {
-  margin-bottom: 20px;
-}
-
 /* Header section */
 .menu,
 .navigation,
@@ -154,21 +150,23 @@ address {
 }
 
 /* Footer section */
-.container.footer {
-  display: flex;
-}
-
 .page-footer {
   padding-top: 60px;
   padding-bottom: 60px;
-}
-
-.bg-footer {
   background-color: var(--background-black);
 }
 
-.address {
-  margin-top: 20px;
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -12px;
+  margin-left: -70px;
+  align-items: baseline;
+}
+
+.footer .logo {
+  display: block;
+  margin-bottom: 20px;
 }
 
 .address .contact {
@@ -187,10 +185,7 @@ address {
   color: var(--primary-white-color);
 }
 
-.footer-address {
-  width: 231px;
-}
-
+.footer-address,
 .footer-block {
   margin-top: 12px;
   margin-left: 70px;
@@ -417,10 +412,13 @@ address {
   font-weight: 500;
 }
 
+.team .position {
+  margin-bottom: 16px;
+}
+
 .social-team {
   display: flex;
   justify-content: center;
-  margin-top: 16px;
 }
 
 .social-team .icon-item + .icon-item {
@@ -433,7 +431,7 @@ address {
   display: flex;
   flex-wrap: wrap;
   margin-left: 22px;
-  margin-top: 6px;
+  margin-top: -10px;
 }
 
 .social-team .icon-item {
